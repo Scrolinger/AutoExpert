@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang='zxx'>
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+  <meta name="description" content="This is a RunPage">
+  <meta name="keywords" content="Run, page">
+  <meta name="author" content="М.А.Откин">
+  <title>Logo AutoExpert's by M.A.Otkin</title>
+
+  <style type="text/css">
+    *, *:before, *:after { box-sizing: border-box; }
+    /*.v1, .v1 *, .v1:before, .v1:after { box-sizing: border-box; }  только классу логотипа и его начинке, если надо не всем*/
+
+    body {
+      margin: 0;
+    }
+
+    /* общее */
+    .v1, .v2 {
+      font-family: "Helvetica";
+      display: inline-block;
+      position: relative;
+      padding: 13px 0 13px 92px;
+      font-size: 24px;
+      font-weight: bold;
+      letter-spacing: 0.06rem;
+      text-transform: uppercase;
+    }
+    .v1__last, .v2__last {
+      display: flex;
+      color: #00adff;
+      letter-spacing: -0.05rem;
+    }
+    .v1__last span, .v2__last span {
+      display: flex;
+      color: #403a2c;
+      font-size: 9px;
+      margin: 4px 0 0 5px;
+      font-weight: normal;
+      line-height: 0.7rem;
+      letter-spacing: 0;
+    }
+
+    /* */
+    .v1:before, .v1:after {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      border-radius: 50%;
+    }
+    .v1:before {
+      height: 82px;
+      width: 82px;
+      background: conic-gradient(at 50% 50%, #261f0f 293deg, rgba(0, 0, 0, 0) 293deg);
+      transform: rotate(123deg);
+    }
+    .v1:after {
+      height: 50px;
+      width: 50px;
+      background: conic-gradient(at 50% 50%, #fff 293deg, #00adff 293deg);
+      transform: translate(16px, 16px) rotate(123deg);
+    }
+
+
+    /* */
+    .v2:before, .v2:after {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      border-radius: 50%;
+    }
+    .v2:before {
+      height: 82px;
+      width: 82px;
+      border: 16px solid #261f0f;
+      border-right-color: transparent;
+    }
+    .v2:after {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      transform: translate(16px, 16px);
+      border: 25px solid transparent;
+      border-right-color: #00adff;
+    }
+
+  </style>
+
+</head>
+<body>
+
+  <div class='v1'>CAR MARKET.
+    <div class='v1__last'>EXPERT
+      <span>DATAMINING <br>PLATFORM</span>
+    </div>
+  </div>
+
+  <div class='v2'>CAR MARKET.
+    <div class='v2__last'>EXPERT
+      <span>DATAMINING <br>PLATFORM</span>
+    </div>
+  </div>
+
+</body>
+</html>
